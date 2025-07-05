@@ -1,0 +1,33 @@
+{
+	"name": "ds_Git_Parameter",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storagedataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Git.json",
+				"fileSystem": "parameter"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"p_rel_url": {
+					"type": "string"
+				},
+				"p_sink_folder": {
+					"type": "string"
+				},
+				"p_sink_fileName": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

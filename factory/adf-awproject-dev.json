@@ -1,0 +1,9 @@
+{
+	"name": "adf-awproject-dev",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c9c33b09-8849-4e05-a753-9fdfc8fb7e89",
+		"tenantId": "07ce8e71-6c69-4216-a617-08ac56233506"
+	}
+}
